@@ -1,8 +1,4 @@
-# flutter_demo
+# flutter-demo
 
-A new Flutter project.
+这是一个demo应用，里面随便写，只是为了练习。
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
