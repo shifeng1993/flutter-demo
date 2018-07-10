@@ -8,6 +8,7 @@ import './routes/index.dart';
 import './store/index.dart';
 import './store/states/AppState.dart';
 
+// 根组件
 class App extends StatelessWidget {
   final store = createStore();
   App();
@@ -16,10 +17,10 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return new StoreProvider<AppState>(
       store: createStore(),
-      child: new Routes()
+      child: new Routes(),
     );
   }
 }
 
-// 渲染
+// 输出渲染
 void main() => runApp(new App());

@@ -1,3 +1,3 @@
-export './HomeScreen/HomeScreen.dart';
-export './CartScreen/CartScreen.dart';
-export './MyScreen/MyScreen.dart';
+export './home_screen/HomeScreen.dart';
+export './cart_screen/CartScreen.dart';
+export './my_screen/MyScreen.dart';

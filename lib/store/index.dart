@@ -7,8 +7,9 @@ import './states/AppState.dart';
 
 Store<AppState> createStore() {
   Store<AppState> store = new Store(
-      appReducer,
-      initialState: new AppState([]),
-      middleware: [new LoggingMiddleware.printer(), thunkMiddleware]);
+    appReducer,
+    initialState: new AppState([]),
+    middleware: [new LoggingMiddleware.printer(), thunkMiddleware],
+  );
   return store;
 }
