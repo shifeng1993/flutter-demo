@@ -1,21 +1,22 @@
-// My
+// Splash
 import 'package:flutter/material.dart';
+import '../../routes/AppNavigator.dart';
 
-class MyScreen extends StatelessWidget {
+class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My',
+      title: 'Splash',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('My'),
+          title: Text('Splash'),
           leading: FlatButton(
             child: Text('返回'),
-            onPressed: () => Navigator.pop(context),
+            onPressed: () => navigator.navigateTo(context, '/cart'),
           ),
         ),
         body: Center(
-          child: Text('My'),
+          child: Text('Splash'),
         ),
       ),
     );

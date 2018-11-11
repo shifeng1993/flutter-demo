@@ -1,21 +1,21 @@
-// Cart
+// My
 import 'package:flutter/material.dart';
 
-class CartScreen extends StatelessWidget {
+class MyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cart',
+      title: 'My',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Cart'),
+          title: Text('My'),
           leading: FlatButton(
             child: Text('返回'),
             onPressed: () => Navigator.pop(context),
           ),
         ),
         body: Center(
-          child: Text('Cart'),
+          child: Text('My'),
         ),
       ),
     );

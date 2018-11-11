@@ -1,7 +1,7 @@
 // Home
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
             children: <Widget>[
               Text(
                 '123',
-                style: new TextStyle(
+                style: TextStyle(
                   fontSize: 24.0,
                 ),
               ),
