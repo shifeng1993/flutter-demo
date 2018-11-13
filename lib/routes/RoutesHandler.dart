@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 // 引入页面
 import '../pages/index.dart';
 
-var splashHandler =
+var SplashHandler =
     Handler(handlerFunc: (BuildContext context, Map<String, dynamic> params) {
   return SplashPage();
 });
@@ -14,7 +14,3 @@ var homeHandler =
   return HomePage();
 });
 
-var cartHandler =
-    Handler(handlerFunc: (BuildContext context, Map<String, dynamic> params) {
-  return CartPage();
-});

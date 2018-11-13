@@ -1,10 +1,10 @@
 import 'package:meta/meta.dart';
 
 @immutable
-class MainState {
+class AppState {
   final List<String> items;
 
-  MainState(this.items);
+  AppState(this.items);
 
   @override
   String toString() {

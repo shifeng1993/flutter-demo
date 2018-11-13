@@ -3,13 +3,13 @@ import 'package:redux_thunk/redux_thunk.dart';
 import 'package:redux_logging/redux_logging.dart';
 
 import './reducers/index.dart';
-import './states/MainState.dart';
+import './states/AppState.dart';
 
-Store<MainState> createStore() {
-  Store<MainState> store = Store(
+Store<AppState> createStore() {
+  Store<AppState> store = new Store(
     appReducer,
-    initialState: MainState([]),
-    middleware: [LoggingMiddleware.printer(), thunkMiddleware],
+    initialState: new AppState([]),
+    middleware: [new LoggingMiddleware.printer(), thunkMiddleware],
   );
   return store;
 }
