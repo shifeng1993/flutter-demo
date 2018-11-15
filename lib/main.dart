@@ -17,14 +17,14 @@ import './routes/Routes.dart';
 // 根组件
 class App extends StatelessWidget {
   final store = createStore();
-  App();
-
-  final router = Router(); // 创建一个常量用来承载路由对象
+  App() {
+    final router = Router(); // 创建一个常量用来承载路由对象
+    Routes.configureRoutes(router); // 使用配置来构造路由
+    AppRouter.set(router); // 构造完成添加到实体类内
+  }
 
   @override
   Widget build(BuildContext context) {
-    Routes.configureRoutes(router); // 使用配置来构造路由
-    AppRouter.set(router); // 构造完成添加到实体类内
     return StoreProvider<AppState>(
       store: store,
       child: MaterialApp(

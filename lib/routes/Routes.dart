@@ -14,6 +14,6 @@ class Routes {
       print("路由不存在！");
     });
     router.define(home, handler: homeHandler);
-    router.define(splash, handler: SplashHandler);
+    router.define(splash, handler: splashHandler);
   }
 }
