@@ -113,6 +113,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.6"
+  file:
+    dependency: transitive
+    description:
+      name: file
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "5.0.6"
   fluro:
     dependency: "direct main"
     description:
@@ -132,6 +139,11 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.2.0"
+  flutter_driver:
+    dependency: "direct dev"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_page_indicator:
     dependency: transitive
     description:
@@ -193,6 +205,11 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.1.6"
+  fuchsia_remote_debug_protocol:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   glob:
     dependency: transitive
     description:
@@ -291,6 +308,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.12.3+1"
+  memoize:
+    dependency: transitive
+    description:
+      name: memoize
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.0"
   meta:
     dependency: transitive
     description:
@@ -305,6 +329,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.9.6+2"
+  mockito:
+    dependency: "direct dev"
+    description:
+      name: mockito
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.0.0"
   multi_server_socket:
     dependency: transitive
     description:
@@ -368,6 +399,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.2"
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.0"
   plugin:
     dependency: transitive
     description:
@@ -382,6 +420,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.6"
+  process:
+    dependency: transitive
+    description:
+      name: process
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.5"
   pub_semver:
     dependency: transitive
     description:
@@ -411,19 +456,12 @@ packages:
     source: hosted
     version: "0.3.0"
   redux_persist:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: redux_persist
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.7.0"
-  redux_persist_flutter:
-    dependency: "direct main"
-    description:
-      name: redux_persist_flutter
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.6.0"
   redux_thunk:
     dependency: "direct main"
     description:
@@ -431,6 +469,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.2.1"
+  reselect:
+    dependency: "direct main"
+    description:
+      name: reselect
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.4.0"
   shared_preferences:
     dependency: "direct main"
     description:
@@ -528,12 +573,19 @@ packages:
     source: hosted
     version: "1.0.1"
   test:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: test
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.4"
+  test_api:
+    dependency: transitive
+    description:
+      name: test_api
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.1"
   transformer_page_view:
     dependency: transitive
     description:

@@ -1,4 +1,3 @@
-// 主入口是为了连接redux，降低耦合
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,14 +19,14 @@ class App extends StatelessWidget {
   final store = createStore();
   App();
 
-  final router = Router(); // 创建一个常量
+  final router = Router(); // 创建一个常量用来承载路由对象
 
   @override
   Widget build(BuildContext context) {
-    Routes.configureRoutes(router); // 配置构造路由
-    AppRouter.set(router); // 添加到实体类内
+    Routes.configureRoutes(router); // 使用配置来构造路由
+    AppRouter.set(router); // 构造完成添加到实体类内
     return StoreProvider<AppState>(
-      store: createStore(),
+      store: store,
       child: MaterialApp(
         theme: ThemeData(
           platform: TargetPlatform.iOS, // 使用ios的界面动画方式
