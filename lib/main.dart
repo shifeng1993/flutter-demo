@@ -17,6 +17,8 @@ import './routes/Routes.dart';
 // 根组件
 class App extends StatelessWidget {
   final store = createStore();
+  final color = const Color(0xffd33b32);  
+
   App() {
     final router = Router(); // 创建一个常量用来承载路由对象
     Routes.configureRoutes(router); // 使用配置来构造路由
@@ -30,7 +32,7 @@ class App extends StatelessWidget {
       child: MaterialApp(
         theme: ThemeData(
           platform: TargetPlatform.iOS, // 使用ios的界面动画方式
-          primaryColor: const Color(0xffd33b32), // 应用主要部分的背景颜色（工具栏，标签栏等）
+          primaryColor: color, // 应用主要部分的背景颜色（工具栏，标签栏等）
           accentColor: Colors.white, // 前景色：旋钮，文本，过度滚动边缘效果等
         ),
         onGenerateRoute: AppRouter.get().generator, // 使用路由构建
