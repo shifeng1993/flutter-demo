@@ -10,13 +10,13 @@ import 'package:redux/redux.dart';
 import '../states/AppState.dart';
 import '../actions/index.dart';
 
-/* ******************* 服务host 开始 ******************* */
-// 设置服务host函数
+/* ******************* 用户信息 开始 ******************* */
+// 设置用户信息函数
 Map<String,String> setUserInfoAction(Map<String,String> userInfo, SetUserInfoAction action) {
   return userInfo;
 }
 
-// 合并服务host相关函数
+// 合并用户信息相关函数
 Reducer<Map<String,String>> userInfoReducer = combineReducers<Map<String,String>>([
   new TypedReducer<Map<String,String>, SetUserInfoAction>(setUserInfoAction),
 ]);
