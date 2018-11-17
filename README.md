@@ -1,10 +1,10 @@
 # flutter-demo
 
-flutter日渐成熟，文档日趋完善，可以写demo了。
+flutter日渐成熟，文档日趋完善，可以写项目了。
 
-这个repo会一点一点加入东西，直到完全作出一款app为止。
+这个repo会在项目之前做一个 flutter router + flutter redux 的架构部分。
 
-因为是自己写开源项目，会加上注释，慢慢写
+方便以后进行项目的start
 
 ----------------------------
 以下是redux部分讲解
