@@ -9,7 +9,7 @@ flutter日渐成熟，文档日趋完善，可以写项目了。
 ----------------------------
 以下是redux部分讲解
 
-## Key Concepts
+## 关键概念
 
   * `State` 是不可以直接被修改的，它位于`Store`中部件层次结构的顶部.
   * `StoreProvider`是一个把`Store`派发给连接的所有控件的`InheritedWidget`（继承组件）
